@@ -1,0 +1,7 @@
+# 金融科技概論 — Python 套件需求 (Python 3.11)
+# notebook 於 pandas < 2.0 時期撰寫，故釘住相容版本。
+numpy==1.24.4
+pandas==1.5.3
+scikit-learn==1.3.2
+matplotlib==3.7.5
+yfinance==0.2.40
