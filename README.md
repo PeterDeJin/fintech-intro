@@ -26,5 +26,5 @@
 pip install numpy pandas scikit-learn matplotlib
 ```
 
-## 注意
-✅ 已將 `ch07-regression` 與 `金融科技Hw1` 內的本機絕對路徑改為**相對路徑**（`BostonHousing.csv`）。其餘 notebook 使用 `load_iris()` 或 `yfinance`，無需附帶資料。
+## 說明
+notebook 以相對路徑讀取 `BostonHousing.csv`；其餘使用 `load_iris()` 或 `yfinance`，無需附帶資料。
