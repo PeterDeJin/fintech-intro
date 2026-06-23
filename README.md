@@ -19,7 +19,7 @@
 | `金融科技.ipynb` | 課程工具筆記（Numpy / Pandas / sklearn / Keras 簡介）|
 
 ## 資料
-`BostonHousing.csv`（公開資料集）；Iris 由 `sklearn.datasets.load_iris()` 載入。
+`data/BostonHousing.csv`（公開資料集）；Iris 由 `sklearn.datasets.load_iris()` 載入。
 
 ## 執行
 ```bash
@@ -27,4 +27,4 @@ pip install numpy pandas scikit-learn matplotlib
 ```
 
 ## 說明
-notebook 以相對路徑讀取 `BostonHousing.csv`；其餘使用 `load_iris()` 或 `yfinance`，無需附帶資料。
+notebook 以相對路徑讀取 `data/BostonHousing.csv`；其餘使用 `load_iris()` 或 `yfinance`，無需附帶資料。
